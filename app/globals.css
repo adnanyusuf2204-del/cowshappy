@@ -18,6 +18,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
 html {
   background-color: var(--background);
   scroll-behavior: smooth;
@@ -29,9 +30,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+
+/* =======================
+   Colours
+======================= */
 
 .bg-cream {
   background-color: var(--cream);
@@ -51,4 +53,53 @@ body {
 
 .border-soft {
   border-color: var(--border);
+}
+
+/* =======================
+   Buttons
+======================= */
+
+.btn-primary {
+  background-color: var(--forest);
+  color: white;
+  border-radius: 0.5rem;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--forest-light);
+}
+
+.btn-secondary {
+  border: 2px solid var(--forest);
+  color: var(--forest);
+  border-radius: 0.5rem;
+  transition: 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background-color: var(--forest);
+  color: white;
+}
+
+/* =======================
+   Cards
+======================= */
+
+.card {
+  background-color: #FCFAF6;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+}
+
+/* =======================
+   Typography
+======================= */
+
+.section-title {
+  color: var(--forest);
+}
+
+.section-text {
+  color: var(--sage);
 }
